@@ -10,6 +10,7 @@ interface Props {
     director: string;
   };
 }
+
 const CardItem = ({ film }: Props) => {
   return (
     <div className="card w-[31%] lg:card-side bg-base-100 shadow-md">
